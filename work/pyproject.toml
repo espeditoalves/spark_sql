@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "spark-sql"
+version = "0.1.0"
+description = ""
+authors = ["Espedito Ferreira Alves <espeditoalves123@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.1.1"
+ipykernel = "^6.29.5"
+pytest = "^8.3.3"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
