@@ -8,7 +8,9 @@ services:
     ports:
       - "8888:8888"  # Porta para o Jupyter Notebook
     volumes:
-      - ./work:/home/jovyan/work  # Mapeia a pasta local 'work' para persistência
+      # - ./work:/home/jovyan/work  # Mapeia a pasta local 'work' para persistência
+      - .:/home/jovyan/work
+
     environment:
       - JUPYTER_ENABLE_LAB=yes
 
